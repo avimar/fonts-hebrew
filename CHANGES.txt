@@ -7,6 +7,12 @@ Version 1.18.5
 
 + Added Mplus1p by Coji Morishita 
 
++ Added NotoHebrew Serif by Google/Monotype Design Team
+
++ Added IBM Plex Sans Hebrew by Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef
+
++ Added FredokaOne by Ben Nathan
+
 
 Version 1.18.2
 

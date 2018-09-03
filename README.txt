@@ -9,7 +9,7 @@ Enjoy them. Share them. Learn from them. Modify them.
 
 FONTS INCLUDED WITHIN THIS FONT PACK
 
-17 fonts supporting the full set of diacritical marks (vowels/niqud and cantillation/t'amim).
+18 fonts supporting the full set of diacritical marks (vowels/niqud and cantillation/t'amim).
 — Ezra SIL/SR (SIL v.2.51)
 — Cardo (by David Perry, v.104s)
 — Keter YG, Keter Aram Tsova, Taamey David, Taamey Frank, Taamey Ashkenaz, 
@@ -17,11 +17,12 @@ FONTS INCLUDED WITHIN THIS FONT PACK
 — Frank Ruehl CLM, Nachlieli CLM, Miriam Mono CLM (v.0.131 by Maxim Iorsh, Culmus Project)	
 — Shlomo, ShlomoStam, and ShlomoSemiStam (by Shlomo Orbach)
 — Mekorot Vilna (Mekorot/Makor)
-— Open Sans (v.1.10 by Steve Matteson)
-— Noto Sans (Google)
+— Open Sans Hebrew (v.1.10 by Steve Matteson)
+— Noto Sans Hebrew (Google)
+— Noto Serif Hebrew (Google)
 	
 	
-31 fonts supporting niqud (w/out t'amim)
+28 fonts supporting niqud (w/out t'amim)
 
 — BenOr Rashi (David ben Or, Sefarađizo, Sephardic Association of Órgiva, Granada, Andalusia, Spain)
 — Mekorot Rashi (Mekorot/Makor, fixed and adjusted by Yoram Gnat, Culmus Project)
@@ -39,7 +40,8 @@ FONTS INCLUDED WITHIN THIS FONT PACK
 — Miriam Libre, Secular One, and Suez One (Michal Sahar)
 — Frank Ruhl Libre (Yanek Iontef)
 — Amatic SC (Vernon Adams, Ben Nathan, Thomas Jockin)
-— BelleFair by Nick Shinn, Liron Lavi Turkenic
+— BelleFair (Nick Shinn, Liron Lavi Turkenic)
+— IBM Plex Sans Hebrew (Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef)
 
 
 
@@ -62,6 +64,7 @@ FONTS INCLUDED WITHIN THIS FONT PACK
 — Amatica SC (Vernon Adams, Ben Nathan, Thomas Jockin)
 — Sharpie (Baruch Sienna)
 — Mplus1p (Coji Morishita)
+— FredokaOne (Ben Nathan)
 	
 	
 1 Faux-Hebrew Font
