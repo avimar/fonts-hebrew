@@ -9,7 +9,7 @@ Enjoy them. Share them. Learn from them. Modify them.
 
 FONTS INCLUDED WITHIN THIS FONT PACK
 
-18 fonts supporting the full set of diacritical marks (vowels/niqud and cantillation/t'amim).
+19 fonts supporting the full set of diacritical marks (vowels/niqud and cantillation/t'amim).
 — Ezra SIL/SR (SIL v.2.51)
 — Cardo (by David Perry, v.104s)
 — Keter YG, Keter Aram Tsova, Taamey David, Taamey Frank, Taamey Ashkenaz, 
@@ -20,6 +20,7 @@ FONTS INCLUDED WITHIN THIS FONT PACK
 — Open Sans Hebrew (v.1.10 by Steve Matteson)
 — Noto Sans Hebrew (Google)
 — Noto Serif Hebrew (Google)
+— Noto Rashi Hebrew (Google)
 	
 	
 28 fonts supporting niqud (w/out t'amim)
