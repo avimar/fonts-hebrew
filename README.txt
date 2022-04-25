@@ -1,4 +1,4 @@
-*the Open Siddur Project's open-source Unicode Hebrew font pack* (v.1.18.6)
+*the Open Siddur Project's open-source Unicode Hebrew font pack* (v.1.18.7)
    <http://opensiddur.org/tools/fonts/>
 
 “Unicode is a computing industry standard for the consistent encoding, representation and handling of text expressed in most of the world’s writing systems.” (wikipedia)
