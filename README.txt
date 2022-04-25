@@ -67,7 +67,8 @@ FONTS INCLUDED WITHIN THIS FONT PACK
 — Sharpie (Baruch Sienna)
 — Mplus1p (Coji Morishita)
 — FredokaOne (Ben Nathan)
-	
+— Solitreo, Nesher Gadol, Nesher Katon (Isaac Gantwerk Mayer)
+
 	
 1 Faux-Hebrew Font
 — Hananiah (by Christtrekker)
