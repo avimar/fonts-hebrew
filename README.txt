@@ -1,4 +1,4 @@
-*the Open Siddur Project's open-source Unicode Hebrew font pack* (v.1.18.7)
+*the Open Siddur Project's open-source Unicode Hebrew font pack* (v.1.18.8)
    <http://opensiddur.org/tools/fonts/>
 
 “Unicode is a computing industry standard for the consistent encoding, representation and handling of text expressed in most of the world’s writing systems.” (wikipedia)
@@ -50,7 +50,7 @@ FONTS INCLUDED WITHIN THIS FONT PACK
 — Sofer Stam Ashkenaz, Sofer Stam Sefarad, 
     and 16 Ancient Hebrew, Aramaic, and proto-Canaanite Semitic Scripts (by Yoram Gnat, Culmus Project)
 — Cryptic A (Nir Yenni), 4Q416 (Eshbal Ratson & Einat Tamir), 4Q417 and 4Q418 (Einat Tamir), 4Q503 (Antony Perrot)
-— Drugulin CLM, Aharoni CLM, Yehuda CLM, Ellinia CLM, Journal CLM (v.0.12 by Maxim Iorsh, Culmus Project)
+— Drugulin CLM, Aharoni CLM, Yehuda CLM, Ellinia CLM, Journal CLM, Lulav CLM (v.0.12 by Maxim Iorsh, Culmus Project)
 — Anka CLM, Comix No2 CLM, Gan CLM, Gladia CLM, 
     Hillel CLM, Ktav-Yad CLM, Ozrad CLM (Fancy Fonts by the Culmus Project)
 — Refoyl and Nachlaot (cursive fonts by Refoyl Finkl)

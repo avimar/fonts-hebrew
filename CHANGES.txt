@@ -1,5 +1,10 @@
 CHANGES
 
+Version 1.18.8
+
++ Added Lulav CLM by Maxim Iorsh (Culmus Project)
+
+
 Version 1.18.7
 
 + Added NotoRashi
