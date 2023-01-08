@@ -1,0 +1,103 @@
+<html>
+<head>
+	<title>Demo Hebrew Fonts</title>
+	<link rel="stylesheet" href="fonts.css">
+
+<script>
+const listOfFonts = ["SecularOne-Regular","SuezOne-Regular",'KtavYadCLM-MediumItalic','GveretLevinAlefAlefAlef','DorianCLM-Book','Mekorot-Rashi','DavidCLM-Medium','HillelCLM-Medium','AnkaCLM-Bold','Guttman-Soncino Bold','Guttman Mantova Bold'];
+
+var defaultText = 'א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת';
+
+const param = new URLSearchParams(window.location.search);
+const param_text  = param.get('text')
+if(param_text) defaultText = param_text;
+
+function changeText() {
+	var demo_text = document.getElementById("demo_text");
+	//get all elements #id.span
+	var all_spans = document.getElementsByClassName("hebrew");
+	//loop through all elements
+	for (var i = 0; i < all_spans.length; i++) {
+		//change the text
+		all_spans[i].innerHTML = demo_text.value;
+		}
+	}
+
+document.addEventListener('DOMContentLoaded', initialize);
+function initialize(){
+	listenForEnter();
+	setStartingFonts();
+	}
+
+function listenForEnter(){
+	const input = document.querySelector("#demo_text");
+	input.value = defaultText;
+
+	input.addEventListener("keyup", (event) => {
+		console.log(event)
+		if (event.key === "Enter") {
+			changeText();
+			}
+		});
+	}
+
+function setStartingFonts(){
+	var display_fonts_block = document.getElementById("display_fonts_block");
+	listOfFonts.forEach(function(font_name) {
+		const template = `<span class="name">Font: ${font_name}</span><br>
+		<span class="hebrew" style= "font-family:${font_name}">${defaultText}</span><br>`;
+
+		var font_span = document.createElement("span");
+		font_span.innerHTML = template;
+		//font_span.style.fontFamily = font_name;
+		//font_span.style.fontSize = "20px";
+		display_fonts_block.appendChild(font_span);
+		display_fonts_block.appendChild(document.createElement("br"));
+		//display_fonts_block.appendChild(document.createElement("br"));
+		});
+	}
+var currentFontSize = 40;
+function fontSize(direction){
+	if(currentFontSize>50) step=10;
+	else if(currentFontSize>40) step=5;
+	else if(currentFontSize>30) step=3;
+	else if(currentFontSize>20) step=2;
+	else step=1;
+
+	if(direction == 'down'){
+		currentFontSize-=step;
+		}
+	else if(direction == 'up'){
+		currentFontSize+=step;
+		}
+	var all_spans = document.getElementsByClassName("hebrew");
+	for (var i = 0; i < all_spans.length; i++) {
+		//change the text
+		all_spans[i].style.fontSize = currentFontSize + 'px';
+		}
+	}
+	</script>
+
+<style>
+.name {font-size: 10px}
+.hebrew {font-size: 40px}
+</style>
+
+</head>
+
+
+<body>
+
+<button onclick="javascript:changeText()" style="font-size: 20px;">Update</button>
+<input type="text" value="א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת" id="demo_text" style="font-size: 20px;" size="13">
+
+<button onclick="javascript:fontSize('down')">-</button>
+<button onclick="javascript:fontSize('up')">+</button>
+<span style="font-size:12px">(pre-define the ext in the url with `?text=MyText`)</span>
+
+<br>
+<br>
+<div id="display_fonts_block"></div>
+
+</body>
+</html>

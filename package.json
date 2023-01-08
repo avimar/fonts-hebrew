@@ -1,0 +1,18 @@
+{
+  "name": "fonts-hebrew",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "*the Open Siddur Project's open-source Unicode Hebrew font pack* (v.1.18.8)\r    <http://opensiddur.org/tools/fonts/>",
+  "main": "generate-html-list-fonts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aharonium/fonts.git"
+  },
+  "homepage": "https://github.com/aharonium/fonts#readme",
+  "dependencies": {
+    "glob": "^8.0.3"
+  }
+}

@@ -1,0 +1,1940 @@
+@font-face {
+	font-family:"Guttman Mantova Bold";
+	src: url("fonts/Additional/Guttman Mantova Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Guttman-Soncino Bold";
+	src: url("fonts/Additional/Guttman-Soncino Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"carmelitbold";
+	src: url("fonts/Hebrew Letters only/Amos Jerbi (OFL)/Carmelit/carmelitbold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"carmelitregular";
+	src: url("fonts/Hebrew Letters only/Amos Jerbi (OFL)/Carmelit/carmelitregular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Noot";
+	src: url("fonts/Hebrew Letters only/Amos Jerbi (OFL)/Noot/Noot.otf") format("opentype");
+	}
+@font-face {
+	font-family:"ptilnarrow-medium-webfont";
+	src: url("fonts/Hebrew Letters only/Amos Jerbi (OFL)/Ptil/ptilnarrow-medium-webfont.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ptilnarrow-regular-webfont";
+	src: url("fonts/Hebrew Letters only/Amos Jerbi (OFL)/Ptil/ptilnarrow-regular-webfont.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ptilwide-medium-webfont";
+	src: url("fonts/Hebrew Letters only/Amos Jerbi (OFL)/Ptil/ptilwide-medium-webfont.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ptilwide-regular-webfont";
+	src: url("fonts/Hebrew Letters only/Amos Jerbi (OFL)/Ptil/ptilwide-regular-webfont.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ShArpie";
+	src: url("fonts/Hebrew Letters only/Baruch Sienna (Public Domain)/ShArpie.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FredokaOne";
+	src: url("fonts/Hebrew Letters only/Ben Nathan (OFL)/FredokaOne/FredokaOne.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FredokaOne";
+	src: url("fonts/Hebrew Letters only/Ben Nathan (OFL)/FredokaOne/FredokaOne.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Looks Like S'pht";
+	src: url("fonts/Hebrew Letters only/Christtrekker (OFL)/lookslikespht/Looks Like S'pht.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Squarish Sans CT Regular SC";
+	src: url("fonts/Hebrew Letters only/Christtrekker (OFL)/squarish sans/Squarish Sans CT Regular SC.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Squarish Sans CT Regular";
+	src: url("fonts/Hebrew Letters only/Christtrekker (OFL)/squarish sans/Squarish Sans CT Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MPLUS1p-Black";
+	src: url("fonts/Hebrew Letters only/Coji Morishita (OFL)/M_PLUS_1p/MPLUS1p-Black.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MPLUS1p-Bold";
+	src: url("fonts/Hebrew Letters only/Coji Morishita (OFL)/M_PLUS_1p/MPLUS1p-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MPLUS1p-ExtraBold";
+	src: url("fonts/Hebrew Letters only/Coji Morishita (OFL)/M_PLUS_1p/MPLUS1p-ExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MPLUS1p-Light";
+	src: url("fonts/Hebrew Letters only/Coji Morishita (OFL)/M_PLUS_1p/MPLUS1p-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MPLUS1p-Medium";
+	src: url("fonts/Hebrew Letters only/Coji Morishita (OFL)/M_PLUS_1p/MPLUS1p-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MPLUS1p-Regular";
+	src: url("fonts/Hebrew Letters only/Coji Morishita (OFL)/M_PLUS_1p/MPLUS1p-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MPLUS1p-Thin";
+	src: url("fonts/Hebrew Letters only/Coji Morishita (OFL)/M_PLUS_1p/MPLUS1p-Thin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"CJHebLSm";
+	src: url("fonts/Hebrew Letters only/CTAN TeX Archive/cjhebrew (LPPL)/CJHebLSm.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"CJHebLtx";
+	src: url("fonts/Hebrew Letters only/CTAN TeX Archive/cjhebrew (LPPL)/CJHebLtx.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"hasida-tt";
+	src: url("fonts/Hebrew Letters only/CTAN TeX Archive/makor2 (GPL)/hasida-tt.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ktavbold";
+	src: url("fonts/Hebrew Letters only/CTAN TeX Archive/makor2 (GPL)/ktavbold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ktavmed";
+	src: url("fonts/Hebrew Letters only/CTAN TeX Archive/makor2 (GPL)/ktavmed.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"OmegaSerifHebrew";
+	src: url("fonts/Hebrew Letters only/CTAN TeX Archive/makor2 (GPL)/OmegaSerifHebrew.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"AharoniCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Aharoni/AharoniCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"AharoniCLM-BoldOblique";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Aharoni/AharoniCLM-BoldOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"AharoniCLM-Book";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Aharoni/AharoniCLM-Book.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"AharoniCLM-BookOblique";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Aharoni/AharoniCLM-BookOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"DrugulinCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Drugulin/DrugulinCLM-Bold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"DrugulinCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Drugulin/DrugulinCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"DrugulinCLM-BoldItalic";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Drugulin/DrugulinCLM-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ElliniaCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Ellinia/ElliniaCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ElliniaCLM-BoldItalic";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Ellinia/ElliniaCLM-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ElliniaCLM-Light";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Ellinia/ElliniaCLM-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ElliniaCLM-LightItalic";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Ellinia/ElliniaCLM-LightItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"YehudaCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Yehuda/YehudaCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"YehudaCLM-Light";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Yehuda/YehudaCLM-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"AnkaCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/anka/anka-otf/AnkaCLM-Bold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"AnkaCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/anka/AnkaCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"GanCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/gan/GanCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"GladiaCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/gladia/GladiaCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"HillelCLM-Medium";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/hillel/hillel-otf/HillelCLM-Medium.otf") format("opentype");
+	}
+@font-face {
+	font-family:"HillelCLM-Medium";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/hillel/HillelCLM-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"HorevCLM-Heavy";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/horev/HorevCLM-Heavy.otf") format("opentype");
+	}
+@font-face {
+	font-family:"HorevCLM-Heavy";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/horev/HorevCLM-Heavy.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"JournalCLM-Light";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/journal/journal-otf/JournalCLM-Light.otf") format("opentype");
+	}
+@font-face {
+	font-family:"JournalCLM-Light";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/journal/JournalCLM-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"KtavYadCLM-BoldItalic";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/ktav-yad/KtavYadCLM-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"KtavYadCLM-MediumItalic";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/ktav-yad/KtavYadCLM-MediumItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LulavCLM";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/lulav/LulavCLM.otf") format("opentype");
+	}
+@font-face {
+	font-family:"OzradCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/ozrad/OzradCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TrashimCLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/trashim/TrashimCLM-Bold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"ComixNo2CLM-Bold";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Richard Schoeller (GPL)/comix/ComixNo2CLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComixNo2CLM-Medium";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Richard Schoeller (GPL)/comix/ComixNo2CLM-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"StamAshkenazCLM";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Yoram Gnat (GPL+FE)/Sofer Stam/Sofer Stam Ashkenaz/StamAshkenazCLM.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"StamSefaradCLM";
+	src: url("fonts/Hebrew Letters only/Culmus Project (GPL and GPL+FE)/Yoram Gnat (GPL+FE)/Sofer Stam/Sofer Stam Sefarad/StamSefaradCLM.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Pfennig";
+	src: url("fonts/Hebrew Letters only/Daniel Johnson (OFL)/pfennig/Pfennig.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"PfennigBold";
+	src: url("fonts/Hebrew Letters only/Daniel Johnson (OFL)/pfennig/PfennigBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"PfennigBoldItalic";
+	src: url("fonts/Hebrew Letters only/Daniel Johnson (OFL)/pfennig/PfennigBoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"PfennigItalic";
+	src: url("fonts/Hebrew Letters only/Daniel Johnson (OFL)/pfennig/PfennigItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"CrypticA-HaifaUni";
+	src: url("fonts/Hebrew Letters only/Dead Sea Scrolls Project (University of Haifa)/Nir Yenni (SIL OFL)/CrypticA-HaifaUni.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"2Q5";
+	src: url("fonts/Hebrew Letters only/Dead Sea Scrolls Project (University of Haifa)/Scripta Qumranica Electronica/Antony Perrot (SIL OFL)/2Q5.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"4Q101";
+	src: url("fonts/Hebrew Letters only/Dead Sea Scrolls Project (University of Haifa)/Scripta Qumranica Electronica/Antony Perrot (SIL OFL)/4Q101.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"4Q503";
+	src: url("fonts/Hebrew Letters only/Dead Sea Scrolls Project (University of Haifa)/Scripta Qumranica Electronica/Antony Perrot (SIL OFL)/4Q503.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"4Q417kern";
+	src: url("fonts/Hebrew Letters only/Dead Sea Scrolls Project (University of Haifa)/Scripta Qumranica Electronica/Einat Tamir (SIL OFL)/4Q417kern.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"4Q418kern";
+	src: url("fonts/Hebrew Letters only/Dead Sea Scrolls Project (University of Haifa)/Scripta Qumranica Electronica/Einat Tamir (SIL OFL)/4Q418kern.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"4Q416jan";
+	src: url("fonts/Hebrew Letters only/Dead Sea Scrolls Project (University of Haifa)/Scripta Qumranica Electronica/Eshbal Ratson and Einat Tamir (SIL OFL)/4Q416jan.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MigdalFontwin";
+	src: url("fonts/Hebrew Letters only/Elad Mordechai Mizrahi (GPL and OFL)/migdal-haemeq (OFL)/MigdalFontwin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Miriwin";
+	src: url("fonts/Hebrew Letters only/Elad Mordechai Mizrahi (GPL and OFL)/miri (OFL)/Miriwin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"RetPer";
+	src: url("fonts/Hebrew Letters only/Elad Mordechai Mizrahi (GPL and OFL)/retro-perspective (OFL)/RetPer.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Stopmotion";
+	src: url("fonts/Hebrew Letters only/Elad Mordechai Mizrahi (GPL and OFL)/stop-motion (OFL)/Stopmotion.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Tnua-Libre-Bold";
+	src: url("fonts/Hebrew Letters only/Elad Mordechai Mizrahi (GPL and OFL)/tnua-libre (GPL)/Tnua-Libre-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Tnua-Libre";
+	src: url("fonts/Hebrew Letters only/Elad Mordechai Mizrahi (GPL and OFL)/tnua-libre (GPL)/Tnua-Libre.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"felix007-medium";
+	src: url("fonts/Hebrew Letters only/Felix Wasserstein (OFL)/felix007/felix007-medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FreeMono";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeMono.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeMonoBold";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeMonoBold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeMonoBoldOblique";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeMonoBoldOblique.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeMonoOblique";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeMonoOblique.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeSans";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeSans.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeSansBold";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeSansBold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeSansBoldOblique";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeSansBoldOblique.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeSansOblique";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeSansOblique.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeSerif";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeSerif.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeSerifBold";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeSerifBold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeSerifBoldItalic";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeSerifBoldItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FreeSerifItalic";
+	src: url("fonts/Hebrew Letters only/GNU FreeFont (GPL)/FreeSerifItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"NesherGadol";
+	src: url("fonts/Hebrew Letters only/Isaac Gantwerk Mayer (OFL)/Nesher Gadol/NesherGadol.otf") format("opentype");
+	}
+@font-face {
+	font-family:"NesherGadol";
+	src: url("fonts/Hebrew Letters only/Isaac Gantwerk Mayer (OFL)/Nesher Gadol/NesherGadol.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NesherKaton";
+	src: url("fonts/Hebrew Letters only/Isaac Gantwerk Mayer (OFL)/Nesher Katon/NesherKaton.otf") format("opentype");
+	}
+@font-face {
+	font-family:"NesherKaton";
+	src: url("fonts/Hebrew Letters only/Isaac Gantwerk Mayer (OFL)/Nesher Katon/NesherKaton.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Solitreo";
+	src: url("fonts/Hebrew Letters only/Isaac Gantwerk Mayer (OFL)/Solitreo/Solitreo.otf") format("opentype");
+	}
+@font-face {
+	font-family:"Solitreo";
+	src: url("fonts/Hebrew Letters only/Isaac Gantwerk Mayer (OFL)/Solitreo/Solitreo.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Le-patin-helvete-italic";
+	src: url("fonts/Hebrew Letters only/Ludivine Loiseau (GPL+FE)/OSP Le Patin Helvète/Le-patin-helvete-italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Le-patin-helvete";
+	src: url("fonts/Hebrew Letters only/Ludivine Loiseau (GPL+FE)/OSP Le Patin Helvète/Le-patin-helvete.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Rubik-Black";
+	src: url("fonts/Hebrew Letters only/Meir Sadan (OFL)/Rubik/Rubik-Black.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Rubik-BlackItalic";
+	src: url("fonts/Hebrew Letters only/Meir Sadan (OFL)/Rubik/Rubik-BlackItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Rubik-Bold";
+	src: url("fonts/Hebrew Letters only/Meir Sadan (OFL)/Rubik/Rubik-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Rubik-BoldItalic";
+	src: url("fonts/Hebrew Letters only/Meir Sadan (OFL)/Rubik/Rubik-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Rubik-Italic";
+	src: url("fonts/Hebrew Letters only/Meir Sadan (OFL)/Rubik/Rubik-Italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Rubik-Light";
+	src: url("fonts/Hebrew Letters only/Meir Sadan (OFL)/Rubik/Rubik-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Rubik-LightItalic";
+	src: url("fonts/Hebrew Letters only/Meir Sadan (OFL)/Rubik/Rubik-LightItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Rubik-Medium";
+	src: url("fonts/Hebrew Letters only/Meir Sadan (OFL)/Rubik/Rubik-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Rubik-MediumItalic";
+	src: url("fonts/Hebrew Letters only/Meir Sadan (OFL)/Rubik/Rubik-MediumItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Rubik-Regular";
+	src: url("fonts/Hebrew Letters only/Meir Sadan (OFL)/Rubik/Rubik-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"carmelabold";
+	src: url("fonts/Hebrew Letters only/Nir Yenni (OFL)/Carmela/carmelabold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"carmelaregular";
+	src: url("fonts/Hebrew Letters only/Nir Yenni (OFL)/Carmela/carmelaregular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinBiolinum_Rah";
+	src: url("fonts/Hebrew Letters only/Philipp Poll (OFL)/Linux Biolinum/LinBiolinum_Rah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinBiolinum_RBah";
+	src: url("fonts/Hebrew Letters only/Philipp Poll (OFL)/Linux Biolinum/LinBiolinum_RBah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinBiolinum_RIah";
+	src: url("fonts/Hebrew Letters only/Philipp Poll (OFL)/Linux Biolinum/LinBiolinum_RIah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Linux-Biolinum-Keyboard";
+	src: url("fonts/Hebrew Letters only/Philipp Poll (OFL)/Linux Biolinum/Linux-Biolinum-Keyboard.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Linux-Biolinum-Outline";
+	src: url("fonts/Hebrew Letters only/Philipp Poll (OFL)/Linux Biolinum/Linux-Biolinum-Outline.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Linux-Biolinum-Shadow";
+	src: url("fonts/Hebrew Letters only/Philipp Poll (OFL)/Linux Biolinum/Linux-Biolinum-Shadow.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Asakim Bold";
+	src: url("fonts/Hebrew Letters only/Printer Killer (OFL)/asakim/Asakim Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Dragon";
+	src: url("fonts/Hebrew Letters only/Printer Killer (OFL)/dragon/Dragon.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Nehama";
+	src: url("fonts/Hebrew Letters only/Printer Killer (OFL)/nehama/Nehama.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Paskol";
+	src: url("fonts/Hebrew Letters only/Printer Killer (OFL)/paskol/Paskol.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Nachlaot";
+	src: url("fonts/Hebrew Letters only/Refoyl Finkl (GPL+FE)/nachlaot/Nachlaot.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Refoyl";
+	src: url("fonts/Hebrew Letters only/Refoyl Finkl (GPL+FE)/refoyl/Refoyl.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"AmaticaSC-Bold";
+	src: url("fonts/Hebrew Letters only/Vernon Adams, Ben Nathan, Thomas Jockin (OFL)/Amatica_SC/AmaticaSC-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"AmaticaSC-Regular";
+	src: url("fonts/Hebrew Letters only/Vernon Adams, Ben Nathan, Thomas Jockin (OFL)/Amatica_SC/AmaticaSC-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"VarelaRound-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Avraham Cornfeld (OFL)/Varela_Round/VarelaRound-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Assistant-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Ben Nathan (OFL)/Assistant/Assistant-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Assistant-ExtraBold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Ben Nathan (OFL)/Assistant/Assistant-ExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Assistant-ExtraLight";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Ben Nathan (OFL)/Assistant/Assistant-ExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Assistant-Light";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Ben Nathan (OFL)/Assistant/Assistant-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Assistant-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Ben Nathan (OFL)/Assistant/Assistant-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Assistant-SemiBold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Ben Nathan (OFL)/Assistant/Assistant-SemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"DavidCLM-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/David/DavidCLM-Bold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"DavidCLM-BoldItalic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/David/DavidCLM-BoldItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"DavidCLM-Medium";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/David/DavidCLM-Medium.otf") format("opentype");
+	}
+@font-face {
+	font-family:"DavidCLM-MediumItalic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/David/DavidCLM-MediumItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"HadasimCLM-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Hadasim/HadasimCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"HadasimCLM-BoldOblique";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Hadasim/HadasimCLM-BoldOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"HadasimCLM-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Hadasim/HadasimCLM-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"HadasimCLM-RegularOblique";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Hadasim/HadasimCLM-RegularOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MiriamCLM-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Miriam/MiriamCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MiriamCLM-Book";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Miriam/MiriamCLM-Book.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"SimpleCLM-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Simple/SimpleCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"SimpleCLM-BoldOblique";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Simple/SimpleCLM-BoldOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"SimpleCLM-MediumOblique";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Basic Fonts/Simple/SimpleCLM-MediumOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"DorianCLM-Book";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/dorian/DorianCLM-Book.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"DorianCLM-BookItalic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Maxim Iorsh (GPL)/Fancy Fonts/dorian/DorianCLM-BookItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankCurledLamed";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Yoram Gnat (GPL)/FrankRuehl (Curled Lamed)/FrankCurledLamed.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Hebrew-Samaritan";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Yoram Gnat (GPL+FE)/Hebrew Samaritan/Hebrew-Samaritan.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MakabiYG";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Yoram Gnat (GPL+FE)/Makabi YG (Isaiah Scroll, modernized)/MakabiYG.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ShmulikCLM";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Culmus Project (GPL and GPL+FE)/Yoram Gnat (GPL+FE)/Shmulik CLM/ShmulikCLM.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"shuneet_bold_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Designer Set/shuneet_bold_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_book_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Designer Set/shuneet_book_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_demi_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Designer Set/shuneet_demi_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_heavy_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Designer Set/shuneet_heavy_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_light_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Designer Set/shuneet_light_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_medium_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Designer Set/shuneet_medium_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_thin_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Designer Set/shuneet_thin_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_classic_bold_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Word Processor Set/shuneet_classic_bold_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_classic_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Word Processor Set/shuneet_classic_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_oblique_bold_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Word Processor Set/shuneet_oblique_bold_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_oblique_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Word Processor Set/shuneet_oblique_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_square_bold_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Word Processor Set/shuneet_square_bold_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"shuneet_square_v2";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Cunliffe-Thomspon (OFL)/Shuneet v.2.1/Word Processor Set/shuneet_square_v2.otf") format("opentype");
+	}
+@font-face {
+	font-family:"BenOrRashiRegular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/David ben Or (UBL)/BenOrRashiRegular.otf") format("opentype");
+	}
+@font-face {
+	font-family:"BenOrRashiRegular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/David ben Or (UBL)/BenOrRashiRegular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Alef-bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/HaGilda and Mushon Zer-Aviv (OFL)/Alef/Alef-Webfont/Alef-bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Alef-regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/HaGilda and Mushon Zer-Aviv (OFL)/Alef/Alef-Webfont/Alef-regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Alef-bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/HaGilda and Mushon Zer-Aviv (OFL)/Alef/TTF/Alef-bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Alef-regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/HaGilda and Mushon Zer-Aviv (OFL)/Alef/TTF/Alef-regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Alef-bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/HaGilda and Mushon Zer-Aviv (OFL)/Alef/VTT-Source/Alef-bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Alef-regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/HaGilda and Mushon Zer-Aviv (OFL)/Alef/VTT-Source/Alef-regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinBiolinum_RBah";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinBiolinum_RBah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinBiolinum_RIah";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinBiolinum_RIah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinLibertine_DRah";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertine_DRah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinLibertine_I";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertine_I.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinLibertine_Mah";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertine_Mah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinLibertine_RBah";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertine_RBah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinLibertine_RBIah";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertine_RBIah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinLibertine_RIah";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertine_RIah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinLibertine_RZah";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertine_RZah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinLibertine_RZIah";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertine_RZIah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinBiolinum_K";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinBiolinum_K.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinBiolinum_R";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinBiolinum_R.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinBiolinum_RB";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinBiolinum_RB.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinBiolinum_RI";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinBiolinum_RI.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinLibertine_DR";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_DR.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinLibertine_I";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_I.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinLibertine_M";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_M.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinLibertine_R";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_R.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinLibertine_RB";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_RB.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinLibertine_RBI";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_RBI.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinLibertine_RI";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_RI.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinLibertine_RZ";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_RZ.otf") format("opentype");
+	}
+@font-face {
+	font-family:"LinLibertine_RZI";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinLibertineOTF_5.3.0_2012_07_02/LinLibertine_RZI.otf") format("opentype");
+	}
+@font-face {
+	font-family:"Linux-Biolinum-Keyboard";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/Linux-Biolinum-Keyboard.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Linux-Biolinum";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/Linux-Biolinum.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LinuxLibertine";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Linux Libertine (OFL)/Linux Libertine/LinuxLibertine.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"DavidLibre-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Meir Sadan (OFL)/David_Libre/DavidLibre-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"DavidLibre-Medium";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Meir Sadan (OFL)/David_Libre/DavidLibre-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"DavidLibre-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Meir Sadan (OFL)/David_Libre/DavidLibre-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Heebo-Black";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Meir Sadan (OFL)/Heebo/Heebo-Black.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Heebo-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Meir Sadan (OFL)/Heebo/Heebo-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Heebo-ExtraBold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Meir Sadan (OFL)/Heebo/Heebo-ExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Heebo-Light";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Meir Sadan (OFL)/Heebo/Heebo-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Heebo-Medium";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Meir Sadan (OFL)/Heebo/Heebo-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Heebo-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Meir Sadan (OFL)/Heebo/Heebo-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Heebo-Thin";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Meir Sadan (OFL)/Heebo/Heebo-Thin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Mekorot-Rashi";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mekorot (LPPL)/Rashi/Mekorot-Rashi.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Mekorot-Vilna-Bold-Italic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mekorot (LPPL)/Vilna/Mekorot-Vilna-Bold-Italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Mekorot-Vilna-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mekorot (LPPL)/Vilna/Mekorot-Vilna-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Mekorot-Vilna-Italic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mekorot (LPPL)/Vilna/Mekorot-Vilna-Italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Mekorot-Vilna";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mekorot (LPPL)/Vilna/Mekorot-Vilna.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MiriamLibre-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Michal Sahar (OFL)/Miriam_Libre/MiriamLibre-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MiriamLibre-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Michal Sahar (OFL)/Miriam_Libre/MiriamLibre-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"SecularOne-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Michal Sahar (OFL)/Secular_One/SecularOne-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"SuezOne-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Michal Sahar (OFL)/Suez_One/SuezOne-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/otf/IBMPlexSansHebrew-Bold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-ExtraLight";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/otf/IBMPlexSansHebrew-ExtraLight.otf") format("opentype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Light";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/otf/IBMPlexSansHebrew-Light.otf") format("opentype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Medium";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/otf/IBMPlexSansHebrew-Medium.otf") format("opentype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/otf/IBMPlexSansHebrew-Regular.otf") format("opentype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-SemiBold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/otf/IBMPlexSansHebrew-SemiBold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Text";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/otf/IBMPlexSansHebrew-Text.otf") format("opentype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Thin";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/otf/IBMPlexSansHebrew-Thin.otf") format("opentype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/ttf/IBMPlexSansHebrew-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-ExtraLight";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/ttf/IBMPlexSansHebrew-ExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Light";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/ttf/IBMPlexSansHebrew-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Medium";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/ttf/IBMPlexSansHebrew-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/ttf/IBMPlexSansHebrew-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-SemiBold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/ttf/IBMPlexSansHebrew-SemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Text";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/ttf/IBMPlexSansHebrew-Text.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"IBMPlexSansHebrew-Thin";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Mike Abbink, Paul van der Laan, Piter van Rosmalen, Yanek Iontef (OFL)/IBMPlexSansHebrew/ttf/IBMPlexSansHebrew-Thin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Bellefair";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Nick Shinn, Liron Lavi Turkenic (OFL)/Bellefair/Bellefair.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Mashkit";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Refoyl Finkl (GPL+FE)/Mashkit/Mashkit.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"GveretLevinAlefAlefAlef";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Shavit Yaacov (OFL)/GveretLevinAlefAlefAlef.otf") format("opentype");
+	}
+@font-face {
+	font-family:"Arimo-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Arimo/Arimo-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Arimo-BoldItalic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Arimo/Arimo-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Arimo-Italic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Arimo/Arimo-Italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Arimo-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Arimo/Arimo-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Cousine-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Cousine/Cousine-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Cousine-BoldItalic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Cousine/Cousine-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Cousine-Italic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Cousine/Cousine-Italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Cousine-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Cousine/Cousine-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Tinos-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Tinos/Tinos-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Tinos-BoldItalic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Tinos/Tinos-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Tinos-Italic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Tinos/Tinos-Italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Tinos-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Steve Matteson (Apache)/Tinos/Tinos-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"AmaticSC-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Vernon Adams, Ben Nathan, Thomas Jockin (OFL)/Amatic_SC/AmaticSC-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"AmaticSC-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Vernon Adams, Ben Nathan, Thomas Jockin (OFL)/Amatic_SC/AmaticSC-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"OpenSansHebrew-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (Apache)/Open Sans Hebrew/OpenSansHebrew-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"OpenSansHebrew-BoldItalic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (Apache)/Open Sans Hebrew/OpenSansHebrew-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"OpenSansHebrew-ExtraBold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (Apache)/Open Sans Hebrew/OpenSansHebrew-ExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"OpenSansHebrew-ExtraBoldItalic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (Apache)/Open Sans Hebrew/OpenSansHebrew-ExtraBoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"OpenSansHebrew-Italic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (Apache)/Open Sans Hebrew/OpenSansHebrew-Italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"OpenSansHebrew-Light";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (Apache)/Open Sans Hebrew/OpenSansHebrew-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"OpenSansHebrew-LightItalic";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (Apache)/Open Sans Hebrew/OpenSansHebrew-LightItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"OpenSansHebrew-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (Apache)/Open Sans Hebrew/OpenSansHebrew-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankRuhlLibre-Black";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (OFL)/Frank_Ruhl_Libre/FrankRuhlLibre-Black.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankRuhlLibre-Bold";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (OFL)/Frank_Ruhl_Libre/FrankRuhlLibre-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankRuhlLibre-Light";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (OFL)/Frank_Ruhl_Libre/FrankRuhlLibre-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankRuhlLibre-Medium";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (OFL)/Frank_Ruhl_Libre/FrankRuhlLibre-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankRuhlLibre-Regular";
+	src: url("fonts/Hebrew Letters with Vowels (no cantillation)/Yanek Iontef (OFL)/Frank_Ruhl_Libre/FrankRuhlLibre-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankRuehlCLM-Bold-Expanded";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/FrankRuehl/FrankRuehlCLM-Bold-Expanded.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankRuehlCLM-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/FrankRuehl/FrankRuehlCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankRuehlCLM-BoldOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/FrankRuehl/FrankRuehlCLM-BoldOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankRuehlCLM-Medium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/FrankRuehl/FrankRuehlCLM-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FrankRuehlCLM-MediumOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/FrankRuehl/FrankRuehlCLM-MediumOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MiriamMonoCLM-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/MiriamMono/MiriamMonoCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MiriamMonoCLM-BoldOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/MiriamMono/MiriamMonoCLM-BoldOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MiriamMonoCLM-Book";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/MiriamMono/MiriamMonoCLM-Book.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"MiriamMonoCLM-BookOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/MiriamMono/MiriamMonoCLM-BookOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NachlieliCLM-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/Nachlieli/NachlieliCLM-Bold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"NachlieliCLM-BoldOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/Nachlieli/NachlieliCLM-BoldOblique.otf") format("opentype");
+	}
+@font-face {
+	font-family:"NachlieliCLM-Light";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/Nachlieli/NachlieliCLM-Light.otf") format("opentype");
+	}
+@font-face {
+	font-family:"NachlieliCLM-LightOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Maxim Iorsh (GPL)/Nachlieli/NachlieliCLM-LightOblique.otf") format("opentype");
+	}
+@font-face {
+	font-family:"KeterAramTsova";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/KeterAramTsova/KeterAramTsova.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"KeterYG-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/KeterYG/KeterYG-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"KeterYG-BoldOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/KeterYG/KeterYG-BoldOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"KeterYG-Medium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/KeterYG/KeterYG-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"KeterYG-MediumOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/KeterYG/KeterYG-MediumOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ShofarDemi-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/Shofar/ShofarDemi-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ShofarDemi-BoldOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/Shofar/ShofarDemi-BoldOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ShofarRegular";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/Shofar/ShofarRegular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ShofarRegularOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/Shofar/ShofarRegularOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyAshkenaz-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyAshkenaz/TTF/TaameyAshkenaz-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyAshkenaz-BoldOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyAshkenaz/TTF/TaameyAshkenaz-BoldOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyAshkenaz-Medium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyAshkenaz/TTF/TaameyAshkenaz-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyAshkenaz-MediumOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyAshkenaz/TTF/TaameyAshkenaz-MediumOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyDavidCLM-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyDavid/TaameyDavidCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyDavidCLM-BoldOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyDavid/TaameyDavidCLM-BoldOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyDavidCLM-Medium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyDavid/TaameyDavidCLM-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyDavidCLM-MediumOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyDavid/TaameyDavidCLM-MediumOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyFrankCLM-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyFrank/TaameyFrankCLM-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyFrankCLM-BoldOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyFrank/TaameyFrankCLM-BoldOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyFrankCLM-Medium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyFrank/TaameyFrankCLM-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TaameyFrankCLM-MediumOblique";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Culmus Project (GPL+FE)/Yoram Gnat (GPL+FE)/Taamey-Culmus/TaameyFrank/TaameyFrankCLM-MediumOblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"FiraGO-BoldItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-BoldItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-BookItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-BookItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-EightItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-EightItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-ExtraBoldItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-ExtraBoldItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-ExtraLightItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-ExtraLightItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-FourItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-FourItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-HairItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-HairItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-HeavyItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-HeavyItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Italic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-Italic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-LightItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-LightItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-MediumItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-MediumItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-SemiBoldItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-SemiBoldItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-ThinItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-ThinItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-TwoItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-TwoItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-UltraLightItalic";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Italic/FiraGO-UltraLightItalic.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Bold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Book";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Book.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Eight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Eight.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-ExtraBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-ExtraBold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-ExtraLight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-ExtraLight.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Four";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Four.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Hair";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Hair.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Heavy";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Heavy.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Light";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Light.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Medium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Medium.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Regular";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Regular.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-SemiBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-SemiBold.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Thin";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Thin.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-Two";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-Two.otf") format("opentype");
+	}
+@font-face {
+	font-family:"FiraGO-UltraLight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/FiraGO (OFL)/FiraGO_OTF_1001/Roman/FiraGO-UltraLight.otf") format("opentype");
+	}
+@font-face {
+	font-family:"Cardo-bold_101";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Fonts for scholars (OFL)/Cardo/Cardo-bold_101.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Cardo-italic_99";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Fonts for scholars (OFL)/Cardo/Cardo-italic_99.otf") format("opentype");
+	}
+@font-face {
+	font-family:"Cardo-regular_104s";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Fonts for scholars (OFL)/Cardo/Cardo-regular_104s.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoRashiHebrew-VariableFont_wght";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoRashiHebrew/NotoRashiHebrew-VariableFont_wght.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoRashiHebrew-Black";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoRashiHebrew/static/NotoRashiHebrew-Black.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoRashiHebrew-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoRashiHebrew/static/NotoRashiHebrew-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoRashiHebrew-ExtraBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoRashiHebrew/static/NotoRashiHebrew-ExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoRashiHebrew-ExtraLight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoRashiHebrew/static/NotoRashiHebrew-ExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoRashiHebrew-Light";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoRashiHebrew/static/NotoRashiHebrew-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoRashiHebrew-Medium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoRashiHebrew/static/NotoRashiHebrew-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoRashiHebrew-Regular";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoRashiHebrew/static/NotoRashiHebrew-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoRashiHebrew-SemiBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoRashiHebrew/static/NotoRashiHebrew-SemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoRashiHebrew-Thin";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoRashiHebrew/static/NotoRashiHebrew-Thin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansHebrew-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSansHebrew/NotoSansHebrew-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansHebrew-Regular";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSansHebrew/NotoSansHebrew-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-Black";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-Black.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-Bold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-Condensed";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-Condensed.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-CondensedBlack";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-CondensedBlack.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-CondensedBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-CondensedBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-CondensedExtraBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-CondensedExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-CondensedExtraLight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-CondensedExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-CondensedLight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-CondensedLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-CondensedMedium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-CondensedMedium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-CondensedSemiBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-CondensedSemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-CondensedThin";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-CondensedThin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraCondensed";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraCondensed.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraCondensedBlack";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraCondensedBlack.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraCondensedBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraCondensedBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraCondensedExtraBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraCondensedExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraCondensedExtraLight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraCondensedExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraCondensedLight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraCondensedLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraCondensedMedium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraCondensedMedium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraCondensedSemiBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraCondensedSemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraCondensedThin";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraCondensedThin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-ExtraLight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-ExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-Light";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-Medium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-Regular";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-SemiBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-SemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-SemiCondensed";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-SemiCondensed.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-SemiCondensedBlack";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-SemiCondensedBlack.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-SemiCondensedBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-SemiCondensedBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-SemiCondensedExtraBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-SemiCondensedExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-SemiCondensedExtraLight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-SemiCondensedExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-SemiCondensedLight";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-SemiCondensedLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-SemiCondensedMedium";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-SemiCondensedMedium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-SemiCondensedSemiBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-SemiCondensedSemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-SemiCondensedThin";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-SemiCondensedThin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSerifHebrew-Thin";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Google (OFL)/NotoSerifHebrew/NotoSerifHebrew-Thin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Shlomo";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Shlomo Orbach (OFL)/Shlomo.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ShlomoBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Shlomo Orbach (OFL)/ShlomoBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ShlomoLightBold";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Shlomo Orbach (OFL)/ShlomoLightBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ShlomoSemiStam";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Shlomo Orbach (OFL)/ShlomoSemiStam.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ShlomoStam";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/Shlomo Orbach (OFL)/ShlomoStam.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"SILEOT";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/SIL (OFL)/Ezra SIL/SILEOT.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"SILEOTSR";
+	src: url("fonts/Hebrew Letters with Vowels and Cantillation/SIL (OFL)/Ezra SIL/SILEOTSR.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Hananiah";
+	src: url("fonts/Non-Hebrew Scripts/Christ Trekker (OFL)/hananiah/Hananiah.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Angular-Bold-Oblique";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Angular-Bold-Oblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Angular-Bold";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Angular-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Angular-Light-Oblique";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Angular-Light-Oblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Angular-Light";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Angular-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Angular-Regular-Oblique";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Angular-Regular-Oblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Angular-Regular";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Angular-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Bold-Oblique";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Bold-Oblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Bold";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Light-Oblique";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Light-Oblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Light";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Regular-Oblique";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Regular-Oblique.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ComicNeue-Regular";
+	src: url("fonts/Non-Hebrew Scripts/Craig Rozynski (CC0)/comic-neue-1.1/ComicNeue-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Judson";
+	src: url("fonts/Non-Hebrew Scripts/David Johnson/Africa/Judson.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"JudsonBold";
+	src: url("fonts/Non-Hebrew Scripts/David Johnson/Africa/JudsonBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"JudsonBoldItalic";
+	src: url("fonts/Non-Hebrew Scripts/David Johnson/Africa/JudsonBoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"JudsonItalic";
+	src: url("fonts/Non-Hebrew Scripts/David Johnson/Africa/JudsonItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"TriodPostnaja";
+	src: url("fonts/Non-Hebrew Scripts/David Johnson/Old Church Slavonic/TriodPostnaja.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Aegyptus_B";
+	src: url("fonts/Non-Hebrew Scripts/George Douros/Aegyptus501/Aegyptus_B.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Aegyptus_R";
+	src: url("fonts/Non-Hebrew Scripts/George Douros/Aegyptus501/Aegyptus_R.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Gardiner";
+	src: url("fonts/Non-Hebrew Scripts/George Douros/Aegyptus501/Gardiner.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Akkadian";
+	src: url("fonts/Non-Hebrew Scripts/George Douros/Akkadian705/Akkadian.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Analecta";
+	src: url("fonts/Non-Hebrew Scripts/George Douros/Analecta401/Analecta.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Anatolian";
+	src: url("fonts/Non-Hebrew Scripts/George Douros/Anatolian501/Anatolian.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"amiri-bold";
+	src: url("fonts/Non-Hebrew Scripts/Khaled Hosny (OFL)/amiri/amiri/amiri-bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"amiri-boldslanted";
+	src: url("fonts/Non-Hebrew Scripts/Khaled Hosny (OFL)/amiri/amiri/amiri-boldslanted.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"amiri-quran-colored";
+	src: url("fonts/Non-Hebrew Scripts/Khaled Hosny (OFL)/amiri/amiri/amiri-quran-colored.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"amiri-quran";
+	src: url("fonts/Non-Hebrew Scripts/Khaled Hosny (OFL)/amiri/amiri/amiri-quran.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"amiri-regular";
+	src: url("fonts/Non-Hebrew Scripts/Khaled Hosny (OFL)/amiri/amiri/amiri-regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"amiri-slanted";
+	src: url("fonts/Non-Hebrew Scripts/Khaled Hosny (OFL)/amiri/amiri/amiri-slanted.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Gidole";
+	src: url("fonts/Non-Hebrew Scripts/Larsenwork/Gidole.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Gidolinya-Regular";
+	src: url("fonts/Non-Hebrew Scripts/Larsenwork/Gidolinya-Regular.otf") format("opentype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-Black";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-Black.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-Bold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-Condensed";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-Condensed.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-CondensedBlack";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-CondensedBlack.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-CondensedBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-CondensedBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-CondensedExtraBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-CondensedExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-CondensedExtraLight";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-CondensedExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-CondensedLight";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-CondensedLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-CondensedMedium";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-CondensedMedium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-CondensedSemiBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-CondensedSemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-CondensedThin";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-CondensedThin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraCondensed";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraCondensed.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraCondensedBlack";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraCondensedBlack.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraCondensedBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraCondensedBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraCondensedExtraBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraCondensedExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraCondensedExtraLight";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraCondensedExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraCondensedLight";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraCondensedLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraCondensedMedium";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraCondensedMedium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraCondensedSemiBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraCondensedSemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraCondensedThin";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraCondensedThin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-ExtraLight";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-ExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-Light";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-Light.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-Medium";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-Medium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-Regular";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-SemiBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-SemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-SemiCondensed";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-SemiCondensed.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-SemiCondensedBlack";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-SemiCondensedBlack.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-SemiCondensedBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-SemiCondensedBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-SemiCondensedExtraBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-SemiCondensedExtraBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-SemiCondensedExtraLight";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-SemiCondensedExtraLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-SemiCondensedLight";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-SemiCondensedLight.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-SemiCondensedMedium";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-SemiCondensedMedium.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-SemiCondensedSemiBold";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-SemiCondensedSemiBold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-SemiCondensedThin";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-SemiCondensedThin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"NotoSansEthiopic-Thin";
+	src: url("fonts/Non-Hebrew Scripts/Noto/NotoSansEthiopic-hinted/NotoSansEthiopic-Thin.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LateefRegOT";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Arabic/LateefRegOT_1.001/LateefRegOT.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"ScheherazadeRegOT";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Arabic/ScheherazadeRegOT-1.005/ScheherazadeRegOT.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"AbyssinicaSIL-R";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Ethiopic/AbyssinicaSIL-R.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Andika-R";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/Andika/Andika-R.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"CharisSILB";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/CharisSIL/CharisSILB.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"CharisSILBI";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/CharisSIL/CharisSILBI.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"CharisSILI";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/CharisSIL/CharisSILI.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"CharisSILR";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/CharisSIL/CharisSILR.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"DoulosSILR";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/DoulosSIL/DoulosSILR.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Gentium-I";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/Gentium-1.03/Gentium-I.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Gentium-R";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/Gentium-1.03/Gentium-R.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"GentiumAlt-I";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/Gentium-1.03/GentiumAlt-I.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"GentiumAlt-R";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/Gentium-1.03/GentiumAlt-R.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"GentiumPlus-I";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/GentiumPlus-1.504/GentiumPlus-I.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"GentiumPlus-R";
+	src: url("fonts/Non-Hebrew Scripts/SIL (OFL)/Latin/GentiumPlus-1.504/GentiumPlus-R.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationMono-Bold";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Mono/LiberationMono-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationMono-BoldItalic";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Mono/LiberationMono-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationMono-Italic";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Mono/LiberationMono-Italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationMono-Regular";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Mono/LiberationMono-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationSans-Bold";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Sans/LiberationSans-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationSans-BoldItalic";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Sans/LiberationSans-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationSans-Italic";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Sans/LiberationSans-Italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationSans-Regular";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Sans/LiberationSans-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationSerif-Bold";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Serif/LiberationSerif-Bold.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationSerif-BoldItalic";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Serif/LiberationSerif-BoldItalic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationSerif-Italic";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Serif/LiberationSerif-Italic.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"LiberationSerif-Regular";
+	src: url("fonts/Non-Hebrew Scripts/Steve Matteson (OFL)/Liberation Serif/LiberationSerif-Regular.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"GoddessSymbols";
+	src: url("fonts/Symbols and Dingbats/AnonMoos (OFL)/goddesssymbols/GoddessSymbols.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"CaladingsCLM";
+	src: url("fonts/Symbols and Dingbats/Culmus-Maxim Iorsh (GPL)/Caladings/CaladingsCLM.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Musica";
+	src: url("fonts/Symbols and Dingbats/George Douros/Musica306/Musica.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Symbola";
+	src: url("fonts/Symbols and Dingbats/George Douros/Symbola708/Symbola.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"Unidings";
+	src: url("fonts/Symbols and Dingbats/George Douros/Unidings707/Unidings.ttf") format("truetype");
+	}
+@font-face {
+	font-family:"RaidhoTheodings-0";
+	src: url("fonts/Symbols and Dingbats/Raidho (OFL)/Raidho Theodings/RaidhoTheodings-0.0.2.otf") format("opentype");
+	}
