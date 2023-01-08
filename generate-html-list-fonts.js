@@ -6,7 +6,7 @@ import fs from 'node:fs/promises';
 
 run();
 async function run(){
-	var allFonts = await glob('fonts/**/*.{ttf,otf}');
+	var allFonts = await glob('Fonts/**/*.{ttf,otf}');
 	allFonts = allFonts.filter(font=>!font.includes('Fallback Fonts'));
 	console.log(allFonts);
 	//write list to file
